@@ -281,6 +281,147 @@ header>nav>div>h1 {
 
 }
 
+/* BMI Calculator  SRCTION CSS */
+
+.section-of-bmi{
+    color: white;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  
+     padding: 52px 189px;
+}
+#text{
+ 
+    font-size: 48px;
+}
+#text1{
+    font-size: 14px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.BMI-Top{
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align:start;
+    margin-left: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.Calculator{
+
+    color:white;
+  
+}
+table{
+    border-collapse: collapse;
+
+   width: 310px;
+   height: 216px;
+   margin-top: 50px;
+
+
+}
+.form-of-BMI{
+
+  
+    
+
+}
+input, select{
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+color: rgba(255, 255, 255, 0.6);
+}
+td{
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px;
+
+}
+.body-text-color{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.head-text-color{
+
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.clr{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+    border-radius: 15px;
+    font-size: 16px;
+   
+
+
+
+line-height: 50px;
+width: 450px;
+    
+}
+
+.box{
+
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+
+    margin-left: 10px;
+    border: 5px solid rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.box2{
+    height: 50px;
+    width: 221px;
+    margin-left: 5px;
+    border: 5px solid rgb(34, 34, 34);
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.268);
+    border-radius: 15px;
+}
+#forcebox{
+
+    margin-left: -228px;
+}
+#forcebox2{
+
+    margin-left: -228px;
+    width: 229px;
+   
+}
+.box3{
+ margin-left:10px ;
+    width: 455px;
+}
+
+.BMI_text{
+ 
+ margin-left: 15px;
+ margin-bottom: 30px;
+
+}
+.parabmi{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-align{
+margin-top: 20px;
+margin-left: 20px;
+width: 220px;
+font-size: 16px;
+font-weight: 400;
+
+}
+
 /* Mobile reponsive */
 
 @media screen and (max-width:576px) {
@@ -444,4 +585,56 @@ header>nav>div>h1 {
     width: 310px;
 }
 
+/* mobile responsive for bmi section */
+.section-of-bmi{
+
+
+    grid-template-columns:repeat(1,1fr) ;
+
+    margin-left: -220px;
+}
+.BMI-Top{
+    margin-left: -10px;
+    
+}
+#text{
+    width: 350px;
+}
+.box{
+    width: 120px;
+}
+.box2{
+    width: 1px;
+}
+#forcebox{
+
+    margin-left: -168px;
+    width: 128px;
+}
+#forcebox2{
+
+    margin-left: -168px;
+    width: 158px;
+   
+}
+.box3{
+ margin-left:10px ;
+    width: 305px;
+}
+.parabmi{
+width: 270px;
+
+}
+
+.btn-align{
+
+    width: 200px;
+    height: 50px;
+
+}
+.form-of-BMI{
+
+    margin-top: 35px;
+
+}
 }
