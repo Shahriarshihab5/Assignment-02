@@ -19,10 +19,12 @@
     font-variation-settings:
         "slnt" 0;
 }
-.nnn{
+
+.nnn {
     margin: 0;
     padding: 0;
 }
+
 * {
 
     margin: 0px;
@@ -32,7 +34,7 @@
 
 body {
     background: linear-gradient(180deg, #1b1b1b, #000000);
-    margin: 0 ;
+    margin: 0;
 
 }
 
@@ -104,7 +106,7 @@ header>nav>div>h1 {
     padding: 10px 40px;
     border-radius: 42px;
     border: 1px solid rgb(230, 83, 60);
-    
+
     background: rgb(230, 83, 60);
     font-size: 18px;
     font-weight: 600;
@@ -257,13 +259,13 @@ header>nav>div>h1 {
 
 
 .para-section {
-  margin-top: 10px;
+    margin-top: 10px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.5);
-    
+
     font-size: 14px;
     font-weight: 400;
-    
+
     letter-spacing: 0.3px;
     text-align: left;
     margin-bottom: 30px;
@@ -287,95 +289,101 @@ header>nav>div>h1 {
 
 /* BMI Calculator  SRCTION CSS */
 
-.section-of-bmi{
+.section-of-bmi {
     color: white;
     background: rgb(34, 34, 34);
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-  
-     padding: 52px 189px;
-     margin: 0px;
-     
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 52px 189px;
+    margin: 0px;
+
 }
-#text{
- 
+
+#text {
+
     font-size: 48px;
-    
+
 }
-#text1{
+
+#text1 {
     font-size: 14px;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
-.BMI-Top{
+
+.BMI-Top {
 
     margin-top: 80px;
     margin-bottom: 80px;
-    text-align:start;
+    text-align: start;
     margin-left: 400px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap: 10px;
 }
-.Calculator{
 
-    color:white;
-  
+.Calculator {
+
+    color: white;
+
 }
-table{
+
+table {
     border-collapse: collapse;
 
-   width: 310px;
-   height: 216px;
-   margin-top: 50px;
+    width: 310px;
+    height: 216px;
+    margin-top: 50px;
 
 
 }
-.form-of-BMI{
 
-  
-    
+.form-of-BMI {}
 
-}
-input, select{
+input,
+select {
     border-radius: 8px;
 
-background: rgba(255, 255, 255, 0.1);
-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
 }
-td{
+
+td {
 
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 5px;
 
 }
-.body-text-color{
-    color:rgba(255, 255, 255, 0.5);
+
+.body-text-color {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
-.head-text-color{
+
+.head-text-color {
 
     color: white;
     font-size: 16px;
     font-weight: 500;
 }
 
-.clr{
+.clr {
 
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     border-radius: 15px;
     font-size: 16px;
-   
 
 
 
-line-height: 50px;
-width: 450px;
-    
+
+    line-height: 50px;
+    width: 450px;
+
 }
 
-.box{
+.box {
 
     height: 40px;
     width: 200px;
@@ -386,7 +394,7 @@ width: 450px;
     border-radius: 15px;
 }
 
-.box2{
+.box2 {
     height: 50px;
     width: 221px;
     margin-left: 5px;
@@ -395,40 +403,110 @@ width: 450px;
     color: rgba(255, 255, 255, 0.268);
     border-radius: 15px;
 }
-#forcebox{
+
+#forcebox {
 
     margin-left: -228px;
 }
-#forcebox2{
+
+#forcebox2 {
 
     margin-left: -228px;
     width: 229px;
-   
+
 }
-.box3{
- margin-left:10px ;
+
+.box3 {
+    margin-left: 10px;
     width: 455px;
 }
 
-.BMI_text{
- 
- margin-left: 15px;
- margin-bottom: 30px;
+.BMI_text {
+
+    margin-left: 15px;
+    margin-bottom: 30px;
 
 }
-.parabmi{
+
+.parabmi {
     margin-top: 15px;
     color: rgba(255, 255, 255, 0.5);
 }
-.btn-align{
-margin-top: 20px;
-margin-left: 0px;
-width: 220px;
-font-size: 16px;
-font-weight: 400;
+
+.btn-align {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 220px;
+    font-size: 16px;
+    font-weight: 400;
 
 }
 
+/* meet-out-team section  */
+
+.Uppersec-meet {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    margin-top: 88px;
+    text-align: center;
+
+}
+
+.Uppersec-meet>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+
+}
+
+.img-container-meet {
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 290px;
+    width: 1060px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    height: 600px;
+
+}
+
+.imgbox {
+    margin-top: 13px;
+    height: 272px;
+    width: 326px;
+  border-radius:25px ;
+  padding: 8px;
+  
+ 
+}
+
+.upper-text{
+
+    height: 20px;
+    width: 20px;
+}
+.textup{
+    margin-top: -70px;
+    margin-left: 20px;
+}
+.textup>p{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   margin-left:5px;
+}
 /* Mobile reponsive */
 
 @media screen and (max-width:576px) {
@@ -444,22 +522,24 @@ font-weight: 400;
     }
 
 
-    .shape{
+    .shape {
         font-size: 42px;
 
     }
 
-    .great-vibes-regular{
+    .great-vibes-regular {
         font-size: 42px;
     }
-    .para-text1{
+
+    .para-text1 {
 
         width: 350px;
     }
-    
-    .fitness{
+
+    .fitness {
         margin-left: 20px;
     }
+
     .for-mobile-nav {
         color: antiquewhite;
     }
@@ -575,7 +655,7 @@ font-weight: 400;
 
     /* run section */
 
-    .display-flex-run{
+    .display-flex-run {
 
 
         flex-direction: column;
@@ -585,10 +665,10 @@ font-weight: 400;
         margin-left: 15px;
         margin-right: 15px;
         gap: 0px;
-    
+
         padding: 16px 40px;
         border-radius: 18px;
-        
+
     }
 
     .run-img-box {
@@ -599,106 +679,116 @@ font-weight: 400;
         border-radius: 15px;
 
     }
-.run-img-box1{
 
-    border-top: 80px;
-}
-.btn-wdt{
+    .run-img-box1 {
 
+        border-top: 80px;
+    }
 
-    width: 310px;
-}
-
-/* mobile responsive for bmi section */
-
-.BMI-Top{
+    .btn-wdt {
 
 
-    margin-left: 20px;
-}
+        width: 310px;
+    }
 
-.section-of-bmi{
+    /* mobile responsive for bmi section */
 
-
-    grid-template-columns:repeat(1,1fr) ;
-    
-    padding: 5px 3px;
-   
- margin: 0px;
-}
+    .BMI-Top {
 
 
-.Calculator{
+        margin-left: 20px;
+    }
 
-   padding: 30px;
-}
-
-
-.BMI_text
-{
-
-margin-left: 2px;
-width: 350px;
-margin-top: 30px;
-font-size: 16px;
-
-}
-.aligner4{
-    margin-left: -15px;
-}
-
-.box{
-
-    height: 40px;
-    width: 150px;
-    padding-left: 20px;
+    .section-of-bmi {
 
 
-}
+        grid-template-columns: repeat(1, 1fr);
 
-.box2{
-    height: 50px;
-    width: 150px;
-    margin-left: 5px;
-  
-}
-#forcebox{
+        padding: 5px 3px;
 
-    margin-left:-188px;
-    width: 159px;
-}
-#forcebox2{
-
-    margin-left: -188px;
-    width: 189px;
-   
-}
-.box3{
- margin-left:10px ;
-    width: 365px;
-}
-
-.btn-align{
-
-    width: 200px;
-    height: 50px;
-}
-.test{
-    width: 200px;
-}
-.alinger{
-    width: 300px;
-}
-.alinger2{
-    width: 300px;
-}
-.aligner4{
-    width: 300px;
-}
-.clr{
+        margin: 0px;
+    }
 
 
-  width: 250px;
-      
-  }
+    .Calculator {
+
+        padding: 30px;
+    }
+
+
+    .BMI_text {
+
+        margin-left: 2px;
+        width: 350px;
+        margin-top: 30px;
+        font-size: 16px;
+
+    }
+
+    .aligner4 {
+        margin-left: -15px;
+    }
+
+    .box {
+
+        height: 40px;
+        width: 150px;
+        padding-left: 20px;
+
+
+    }
+
+    .box2 {
+        height: 50px;
+        width: 150px;
+        margin-left: 5px;
+
+    }
+
+    #forcebox {
+
+        margin-left: -188px;
+        width: 159px;
+    }
+
+    #forcebox2 {
+
+        margin-left: -188px;
+        width: 189px;
+
+    }
+
+    .box3 {
+        margin-left: 10px;
+        width: 365px;
+    }
+
+    .btn-align {
+
+        width: 200px;
+        height: 50px;
+    }
+
+    .test {
+        width: 200px;
+    }
+
+    .alinger {
+        width: 300px;
+    }
+
+    .alinger2 {
+        width: 300px;
+    }
+
+    .aligner4 {
+        width: 300px;
+    }
+
+    .clr {
+
+
+        width: 250px;
+
+    }
 }
