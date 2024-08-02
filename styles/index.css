@@ -221,9 +221,9 @@ header>nav>div>h1 {
     gap: 10px;
     color: white;
 
-    margin-right: 150px;
+    margin-right: 130px;
 
-    margin-left: 150px;
+    margin-left: 200px;
 }
 
 .img-sizer {
@@ -251,9 +251,9 @@ header>nav>div>h1 {
     align-items: center;
     color: white;
     margin-top: 50px;
-    margin: 100px auto;
-    margin-left: 130px;
-    margin-right: 220px;
+
+    margin-left: 140px;
+    margin-right: 140px;
     gap: 80px;
 
     padding: 50px;
@@ -574,6 +574,65 @@ font-weight: 900;
 
 .off{
     display: none;
+}
+
+
+/* extra section css */
+.upex{
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+
+}
+.upex>h1{
+
+    font-size: 30px;
+    font-weight: 800;
+}
+.upex>p{
+ margin-top: 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.extra-sectinon{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color:rgba(34, 34, 34, 1);
+    margin-top: 60px;
+    padding: 50px 110px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.setter{
+
+    border-radius: 7px;
+}
+.fixer{
+
+height: auto;
+width: 250px;
+
+}
+.mm{
+
+    margin-top: 20px;
+}
+
+.extra-sectinon-p{
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
 }
 /* Mobile reponsive */
 
@@ -972,5 +1031,29 @@ padding-top:66px ;
 width: 350px;
 margin-left: -175px;
 font-size: 15px;
+}
+
+
+/* extra section css works  */
+
+
+.extra-sectinon{
+    display: flex;
+    flex-direction: column;
+  
+
+    gap:10px;
+    justify-content: space-around;
+ 
+ 
+}
+.fixer{
+
+    margin-left: -65px;
+}
+.extra-sectinon-p{
+
+    width: 250px;
+    margin-left: -65px;
 }
 }
