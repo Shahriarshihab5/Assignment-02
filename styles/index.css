@@ -507,6 +507,64 @@ td {
    font-size: 14px;
    margin-left:5px;
 }
+
+.footerclass{
+    margin-top: 88px;
+color: white;
+display: flex;
+justify-content: space-around;
+gap: 10px;
+
+padding-top:66px ;
+}
+.fit{
+ color:rgba(230, 83, 60, 1) ;
+font-weight: 900;
+ font-size: 70px;
+ font-style: italic;
+ 
+}
+.text-of-footer{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.fttxt{
+
+    margin-top:27px ;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    
+}
+
+.lastfoot{
+
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size:20px;
+    font-weight: normal;
+    text-align: center;
+
+    margin-top: 79px;
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 36px 190px;
+}
+.ft{
+    background-color:rgba(255, 255, 255, 0.1) ;   
+}
+.alg1{
+    margin-left: 180px;
+}
+.alg3{
+
+    margin-right: 190px;
+}
+
+.off{
+    display: none;
+}
 /* Mobile reponsive */
 
 @media screen and (max-width:576px) {
@@ -790,5 +848,14 @@ td {
 
         width: 250px;
 
+    }
+
+
+    /* team section css  */
+
+    .img-container-meet {
+
+
+        grid-template-columns: repeat(1,1fr);
     }
 }
