@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+     
+    font-weight: 200;  
+    letter-spacing: 8px;                                        
+}
 
 .great-vibes-regular {
     font-family: "Great Vibes";
@@ -137,8 +147,8 @@ header>nav>div>h1 {
 #text-box1 {
 
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top: -300px;
-    margin-left: 290px;
+    margin-top: -400px;
+    margin-left: 220px;
     width: 193px;
     height: 98px;
     border-radius: 12px;
@@ -152,7 +162,8 @@ header>nav>div>h1 {
 #text-box2 {
 
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top: -120px;
+    margin-top: -170px;
+    margin-left: -130px;
     width: 193px;
     height: 98px;
     border-radius: 12px;
@@ -167,14 +178,15 @@ header>nav>div>h1 {
 .h1 {
     font-size: 40px;
     font-weight: 900;
+    margin-left: -15px;
 }
 
 
 .p1 {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    margin-left: 35px;
+    margin-left: 15px;
 }
 
 .circle {
@@ -444,7 +456,7 @@ td {
 
 .btn-align {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 15px;
     width: 220px;
     font-size: 16px;
     font-weight: 400;
@@ -718,9 +730,9 @@ width: 250px;
     #text-box1 {
 
         background-color: rgba(255, 255, 255, 0.1);
-        margin-top: -400px;
+        margin-top: -280px;
         margin-left: 210px;
-        width: 130px;
+        width: 160px;
         height: 80px;
         border-radius: 12px;
         display: flex;
@@ -733,7 +745,8 @@ width: 250px;
     #text-box2 {
 
         background-color: rgba(255, 255, 255, 0.1);
-        margin-top: -120px;
+        margin-top: -330px;
+        margin-left: 10px;
         width: 130px;
         height: 80px;
         border-radius: 12px;
@@ -742,13 +755,14 @@ width: 250px;
         align-items: center;
         justify-content: center;
         backdrop-filter: blur(20px);
+        width: 160px;
 
     }
 
     .h1 {
         font-size: 20px;
         font-weight: 900;
-        margin-left: 20px;
+        margin-left: -68px;
     }
 
 
@@ -756,13 +770,19 @@ width: 250px;
         color: rgba(255, 255, 255, 0.65);
         font-size: 10px;
         font-weight: 400;
-        margin-left: 25px;
+        margin-left: 47px;
+        font-size: 12px;
     }
 
     .h2 {
         margin-left: 40px;
     }
 
+    .p3{
+
+        margin-left: -2px;
+        width: 120px;
+    }
     .circle {
 
         width: 35px;
